@@ -7,7 +7,7 @@ public class Main {
         JFrame frame = new JFrame("Mi aplicación");
         frame.setContentPane(new Estudiantes().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 400);
+        frame.setSize(500, 800);
         frame.setLocationRelativeTo(null);
         frame.pack();
         frame.setVisible(true);
